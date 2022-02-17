@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ece1cc55-d2a5-40f3-88ac-2f28c246d0b5" name="Default Changelist" comment="add .gitignore">
-      <change afterPath="$PROJECT_DIR$/bubble_sort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    <list default="true" id="adaf032a-1561-4454-8423-5574ff00ca93" name="Default Changelist" comment="feat: 排序算法&#10;&#10;+ 冒泡排序&#10;+ 选择排序">
+      <change afterPath="$PROJECT_DIR$/.idea/go-sort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SelectSort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BubbleSort.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/BubbleSort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,17 +18,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
       </list>
     </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="25DpCAQkt4l0mNo3wGlLKbcTuQ0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="25EER54dwX70EAD0FvKUzzow2hM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,9 +45,45 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="true" />
+  <component name="RunManager" selected="Go Build.go build go-sort">
+    <configuration name="go build bubble_sort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-sort" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/bubble_sort.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-sort (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-sort" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/BubbleSort.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-sort" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/SelectSort.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build go-sort (1)" />
+        <item itemvalue="Go Build.go build go-sort" />
+        <item itemvalue="Go Build.go build bubble_sort.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -51,14 +93,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/release-1.0.1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore" />
+    <MESSAGE value="feat: 排序算法&#10;&#10;+ 冒泡排序&#10;+ 选择排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 排序算法&#10;&#10;+ 冒泡排序&#10;+ 选择排序" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
 </project>
