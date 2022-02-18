@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adaf032a-1561-4454-8423-5574ff00ca93" name="Default Changelist" comment="feat: 排序算法&#10;&#10;+ 冒泡排序&#10;+ 选择排序">
-      <change afterPath="$PROJECT_DIR$/InsertSort.go" afterDir="false" />
+    <list default="true" id="adaf032a-1561-4454-8423-5574ff00ca93" name="Default Changelist" comment="feat: 排序算法&#10;&#10;+ 选择排序">
+      <change afterPath="$PROJECT_DIR$/MergeSort.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BubbleSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/BubbleSort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SelectSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/SelectSort.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +45,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Go Build.go build go-sort (2)">
-    <configuration name="go build bubble_sort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-sort" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/bubble_sort.go" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build go-sort (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-sort" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
+      <kind value="DIRECTORY" />
       <package value="go-sort" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/BubbleSort.go" />
+      <filePath value="$PROJECT_DIR$/MergeSort.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-sort (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -71,16 +60,16 @@
       <kind value="FILE" />
       <package value="go-sort" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/InsertSort.go" />
+      <filePath value="$PROJECT_DIR$/MergeSort.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-sort" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
+      <kind value="DIRECTORY" />
       <package value="go-sort" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/SelectSort.go" />
+      <filePath value="$PROJECT_DIR$/MergeSort.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -88,7 +77,6 @@
         <item itemvalue="Go Build.go build go-sort (2)" />
         <item itemvalue="Go Build.go build go-sort (1)" />
         <item itemvalue="Go Build.go build go-sort" />
-        <item itemvalue="Go Build.go build bubble_sort.go" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +109,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 排序算法&#10;&#10;+ 冒泡排序&#10;+ 选择排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 排序算法&#10;&#10;+ 冒泡排序&#10;+ 选择排序" />
+    <MESSAGE value="feat: 排序算法&#10;&#10;+ 选择排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 排序算法&#10;&#10;+ 选择排序" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -148,6 +137,11 @@
           <url>file://$PROJECT_DIR$/InsertSort.go</url>
           <line>22</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/MergeSort.go</url>
+          <line>55</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
