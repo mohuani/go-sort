@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adaf032a-1561-4454-8423-5574ff00ca93" name="Default Changelist" comment="feat: 排序算法&#10;&#10;+ 选择排序">
-      <change afterPath="$PROJECT_DIR$/MergeSort.go" afterDir="false" />
+    <list default="true" id="adaf032a-1561-4454-8423-5574ff00ca93" name="Default Changelist" comment="feat: 排序算法&#10;&#10;+ 归并排序">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/go-sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-sort.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/QuickSort.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="25EER54dwX70EAD0FvKUzzow2hM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,13 +48,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager" selected="Go Build.go build go-sort (2)">
+  <component name="RunManager" selected="Go Build.go build QuickSort.go">
+    <configuration name="go build QuickSort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-sort" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/QuickSort.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go-sort (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-sort" />
       <working_directory value="$PROJECT_DIR$" />
@@ -63,20 +84,58 @@
       <filePath value="$PROJECT_DIR$/MergeSort.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-sort (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-sort" />
       <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
       <kind value="DIRECTORY" />
       <package value="go-sort" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/MergeSort.go" />
+      <filePath value="$PROJECT_DIR$/InsertSort.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-sort (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-sort" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <package value="go-sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/InsertSort.go" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build go-sort (1)" />
+      <item itemvalue="Go Build.go build go-sort (2)" />
+      <item itemvalue="Go Build.go build go-sort (3)" />
+      <item itemvalue="Go Build.go build go-sort (4)" />
+      <item itemvalue="Go Build.go build QuickSort.go" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build QuickSort.go" />
+        <item itemvalue="Go Build.go build go-sort (4)" />
+        <item itemvalue="Go Build.go build go-sort (3)" />
         <item itemvalue="Go Build.go build go-sort (2)" />
         <item itemvalue="Go Build.go build go-sort (1)" />
-        <item itemvalue="Go Build.go build go-sort" />
       </list>
     </recent_temporary>
   </component>
@@ -106,11 +165,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 排序算法&#10;&#10;+ 冒泡排序&#10;+ 选择排序" />
     <MESSAGE value="feat: 排序算法&#10;&#10;+ 选择排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 排序算法&#10;&#10;+ 选择排序" />
+    <MESSAGE value="feat: 排序算法&#10;&#10;+ 归并排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 排序算法&#10;&#10;+ 归并排序" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -137,11 +198,6 @@
           <url>file://$PROJECT_DIR$/InsertSort.go</url>
           <line>22</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/MergeSort.go</url>
-          <line>55</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
