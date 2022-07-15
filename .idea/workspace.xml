@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adaf032a-1561-4454-8423-5574ff00ca93" name="Default Changelist" comment="feat: 排序算法&#10;&#10;+ 快速排序">
-      <change afterPath="$PROJECT_DIR$/QuickSort2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuickSort3.go" afterDir="false" />
+    <list default="true" id="adaf032a-1561-4454-8423-5574ff00ca93" name="Default Changelist" comment="feat: 快速排序&#10;&#10;+ 参考php版本的快排写的一个golang版本，感觉php版本的快排是最易于理解的">
+      <change afterPath="$PROJECT_DIR$/MergeSort2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MergeSort3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MergeSort4.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuickSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/QuickSort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MergeSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/MergeSort.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-sort (1)">
+  <component name="RunManager" selected="Go Build.go build go-sort (2)">
     <configuration name="go build QuickSort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-sort" />
       <working_directory value="$PROJECT_DIR$" />
@@ -81,42 +82,22 @@
       <filePath value="$PROJECT_DIR$/QuickSort3.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-sort (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-sort (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-sort" />
       <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <kind value="DIRECTORY" />
-      <package value="go-sort" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/InsertSort.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-sort (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-sort" />
-      <working_directory value="$PROJECT_DIR$" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
       <kind value="FILE" />
       <package value="go-sort" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/InsertSort.go" />
+      <filePath value="$PROJECT_DIR$/MergeSort2.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-sort (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-sort" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/MergeSort3.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -129,19 +110,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build go-sort (3)" />
-      <item itemvalue="Go Build.go build go-sort (4)" />
       <item itemvalue="Go Build.go build QuickSort.go" />
       <item itemvalue="Go Build.go build go-sort" />
       <item itemvalue="Go Build.go build go-sort (1)" />
+      <item itemvalue="Go Build.go build go-sort (2)" />
+      <item itemvalue="Go Build.go build go-sort (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-sort (2)" />
+        <item itemvalue="Go Build.go build go-sort (3)" />
         <item itemvalue="Go Build.go build go-sort (1)" />
         <item itemvalue="Go Build.go build go-sort" />
         <item itemvalue="Go Build.go build QuickSort.go" />
-        <item itemvalue="Go Build.go build go-sort (4)" />
-        <item itemvalue="Go Build.go build go-sort (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +159,8 @@
     <MESSAGE value="feat: 排序算法&#10;&#10;+ 选择排序" />
     <MESSAGE value="feat: 排序算法&#10;&#10;+ 归并排序" />
     <MESSAGE value="feat: 排序算法&#10;&#10;+ 快速排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 排序算法&#10;&#10;+ 快速排序" />
+    <MESSAGE value="feat: 快速排序&#10;&#10;+ 参考php版本的快排写的一个golang版本，感觉php版本的快排是最易于理解的" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 快速排序&#10;&#10;+ 参考php版本的快排写的一个golang版本，感觉php版本的快排是最易于理解的" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -188,8 +170,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/QuickSort.go</url>
-          <line>31</line>
+          <line>33</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/MergeSort2.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
