@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adaf032a-1561-4454-8423-5574ff00ca93" name="Default Changelist" comment="feat: 排序算法&#10;&#10;+ 归并排序">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go-sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-sort.iml" afterDir="false" />
+    <list default="true" id="adaf032a-1561-4454-8423-5574ff00ca93" name="Default Changelist" comment="feat: 排序算法&#10;&#10;+ 快速排序">
+      <change afterPath="$PROJECT_DIR$/QuickSort2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickSort3.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QuickSort.go" beforeDir="false" afterPath="$PROJECT_DIR$/QuickSort.go" afterDir="false" />
     </list>
@@ -16,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="OpenAPI" />
       </list>
     </option>
   </component>
@@ -56,7 +57,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
-  <component name="RunManager" selected="Go Build.go build QuickSort.go">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build go-sort (1)">
     <configuration name="go build QuickSort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-sort" />
       <working_directory value="$PROJECT_DIR$" />
@@ -69,19 +75,10 @@
     <configuration name="go build go-sort (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-sort" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
-      <package value="go-sort" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/MergeSort.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-sort (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-sort" />
-      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <package value="go-sort" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/MergeSort.go" />
+      <filePath value="$PROJECT_DIR$/QuickSort3.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-sort (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -122,20 +119,29 @@
       <filePath value="$PROJECT_DIR$/InsertSort.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-sort" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/QuickSort2.go" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build go-sort (1)" />
-      <item itemvalue="Go Build.go build go-sort (2)" />
       <item itemvalue="Go Build.go build go-sort (3)" />
       <item itemvalue="Go Build.go build go-sort (4)" />
       <item itemvalue="Go Build.go build QuickSort.go" />
+      <item itemvalue="Go Build.go build go-sort" />
+      <item itemvalue="Go Build.go build go-sort (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-sort (1)" />
+        <item itemvalue="Go Build.go build go-sort" />
         <item itemvalue="Go Build.go build QuickSort.go" />
         <item itemvalue="Go Build.go build go-sort (4)" />
         <item itemvalue="Go Build.go build go-sort (3)" />
-        <item itemvalue="Go Build.go build go-sort (2)" />
-        <item itemvalue="Go Build.go build go-sort (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +177,8 @@
     <MESSAGE value="feat: 排序算法&#10;&#10;+ 冒泡排序&#10;+ 选择排序" />
     <MESSAGE value="feat: 排序算法&#10;&#10;+ 选择排序" />
     <MESSAGE value="feat: 排序算法&#10;&#10;+ 归并排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 排序算法&#10;&#10;+ 归并排序" />
+    <MESSAGE value="feat: 排序算法&#10;&#10;+ 快速排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 排序算法&#10;&#10;+ 快速排序" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -180,24 +187,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/InsertSort.go</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/InsertSort.go</url>
-          <line>19</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/InsertSort.go</url>
-          <line>18</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/InsertSort.go</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/QuickSort.go</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

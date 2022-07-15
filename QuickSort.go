@@ -9,6 +9,8 @@ import "fmt"
 // 分区过程，将比这个数大的数全放到它的右边，小于或等于它的数全放到它的左边。
 // 再对左右区间重复第二步，直到各区间只有一个数。
 
+// 参考文章：https://selfboot.cn/2016/09/01/lost_partition/
+
 func main() {
 	list := []int{5}
 	QuickSort(list, 0, len(list)-1)
@@ -36,6 +38,8 @@ func QuickSort(array []int, begin, end int) {
 	}
 }
 
+// 快速排序中用到的 partition 算法思想很简单，首先从无序数组中选出枢轴点 pivot，然后通过一趟扫描，
+//以 pivot 为分界线将数组中其他元素分为两部分，使得左边部分的数小于等于枢轴，右边部分的数大于等于枢轴（左部分或者右部分都可能为空），最后返回枢轴在新的数组中的位置。
 func partition(array []int, begin, end int) int {
 	i := begin + 1
 	j := end
@@ -57,6 +61,6 @@ func partition(array []int, begin, end int) int {
 
 	array[begin], array[i] = array[i], array[begin]
 
-	// 这里为什么要return i，i的含义是
+	// 这里为什么要return i，i的含义是  枢轴在新的数组中的位置
 	return i
 }
